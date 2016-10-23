@@ -59,6 +59,7 @@ set(THIS_PACKAGE_INCLUDE_DIRS
     backtrace/include
     collision_detection/include
     collision_detection_fcl/include
+    collision_detection_physx/include
     constraint_samplers/include
     controller_manager/include
     distance_field/include
@@ -93,6 +94,7 @@ catkin_package(
     moveit_planning_interface
     moveit_collision_detection
     moveit_collision_detection_fcl
+    moveit_collision_detection_physx
     moveit_kinematic_constraints
     moveit_planning_scene
     moveit_constraint_samplers
@@ -164,6 +166,7 @@ add_subdirectory(robot_state)
 add_subdirectory(robot_trajectory)
 add_subdirectory(collision_detection)
 add_subdirectory(collision_detection_fcl)
+add_subdirectory(collision_detection_physx)
 add_subdirectory(kinematic_constraints)
 add_subdirectory(planning_scene)
 add_subdirectory(constraint_samplers)
